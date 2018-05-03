@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/udacity_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/udacity"/>
+    <TextView
+        android:id="@+id/Udacity_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Udacity"
+        android:textSize="20sp"
+        android:paddingLeft="15dp"
+        android:layout_below="@id/udacity_image_view"/>
+    <TextView
+        android:id="@+id/Latham_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2465 Latham St"
+        android:textSize="20sp"
+        android:paddingLeft="15dp"
+        android:layout_below="@id/Udacity_text_view"/>
+    <TextView
+        android:id="@+id/Mountain_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mountain View, CA 94043"
+        android:paddingLeft="15dp"
+        android:layout_below="@id/Latham_text_view"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="650-555-5555"
+        android:layout_below="@id/Mountain_text_view"
+        android:textSize="20sp"
+        android:paddingLeft="15dp"/>
+</RelativeLayout>
